@@ -9,33 +9,37 @@
       margin: 0;
       background-color: #f4f4f4;
       text-align: center;
+      color: #111;
     }
 
-    .hero {
-      background-image: url('Website%20Banner%20copy.png');
-      background-size: cover;
-      background-position: center;
-      color: white;
-      padding: 100px 20px;
+    /* Banner section */
+    .hero img {
+      width: 100%;
+      max-height: 350px;
+      object-fit: cover;
+      display: block;
     }
 
-    .hero h1 {
-      font-size: 48px;
-      margin-bottom: 10px;
-    }
-
+    /* Main content */
     .container {
       padding: 40px 20px;
     }
 
-    img {
-      max-width: 200px;
+    /* Logo styling */
+    .logo {
+      max-width: 220px;
       margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
     }
 
     p {
       font-size: 18px;
       color: #333;
+      margin: 10px 0;
     }
 
     .coming-soon {
@@ -47,17 +51,24 @@
 
 <body>
 
+  <!-- Banner (no text overlay) -->
   <div class="hero">
-    <h1>Cascadia Web Development</h1>
-    <p>Professional websites, maintenance, and hosting</p>
+    <img src="banner.png" alt="Cascadia Web Development Banner">
   </div>
 
+  <!-- Main content -->
   <div class="container">
 
-    <img src="Company logo.png" alt="Logo">
+    <!-- Logo -->
+    <img class="logo" src="Company logo.png" alt="Cascadia Web Development Logo">
 
+    <!-- Title -->
+    <h1>Cascadia Web Development</h1>
+
+    <!-- Description -->
     <p>Web development, website maintenance, and hosting services.</p>
 
+    <!-- Coming soon -->
     <p class="coming-soon">Coming Soon</p>
     <p>We are building something great. Please check back soon.</p>
 
