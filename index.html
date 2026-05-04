@@ -6,10 +6,22 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      text-align: center;
       margin: 0;
-      padding: 0;
       background-color: #f4f4f4;
+      text-align: center;
+    }
+
+    .hero {
+      background-image: url('banner.png');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      padding: 100px 20px;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
     }
 
     .container {
@@ -17,13 +29,8 @@
     }
 
     img {
-      max-width: 300px;
+      max-width: 200px;
       margin-bottom: 20px;
-    }
-
-    h1 {
-      font-size: 36px;
-      margin-bottom: 10px;
     }
 
     p {
@@ -39,16 +46,22 @@
 </head>
 
 <body>
+
+  <div class="hero">
+    <h1>Cascadia Web Development</h1>
+    <p>Professional websites, maintenance, and hosting</p>
+  </div>
+
   <div class="container">
 
-    <img src="Company logo.png" alt="Cascadia Web Development Logo">
+    <img src="Company logo.png" alt="Logo">
 
-    <h1>Cascadia Web Development</h1>
     <p>Web development, website maintenance, and hosting services.</p>
 
     <p class="coming-soon">Coming Soon</p>
     <p>We are building something great. Please check back soon.</p>
 
   </div>
+
 </body>
 </html>
