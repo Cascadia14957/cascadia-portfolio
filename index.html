@@ -419,22 +419,66 @@ footer p {
 html {
   scroll-behavior: smooth;
 }
+
+.navbar {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.nav-links a.active {
+  color: #feb01f;
+}
+
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 26px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .nav-container {
+    flex-wrap: wrap;
+    gap: 0;
+    padding: 0 20px;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+    margin-top: 15px;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+}
     
   </style>
 </head>
 
 <body>
 <!-- Navigation Bar -->
-  <nav class="navbar">
+<nav class="navbar">
   <div class="nav-container">
     <h2 class="logo-text">Cascadia Web Development</h2>
-    
-<ul class="nav-links">
-  <li><a href="#services">Services</a></li>
-  <li><a href="#about">About</a></li>
-  <li><a href="#portfolio">Our Work</a></li>
-  <li><a href="#contact">Contact</a></li>
-</ul>
+
+    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#services">Services</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#portfolio">Our Work</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
   </div>
 </nav>
   <!-- Banner -->
@@ -566,5 +610,33 @@ html {
   <p>&copy; 2026 Cascadia Web Development. All rights reserved.</p>
 </footer>
 
+  <script>
+  function toggleMenu() {
+    document.getElementById("navLinks").classList.toggle("show");
+  }
+
+  const sections = document.querySelectorAll("#services, #about, #portfolio, #contact");
+  const navLinks = document.querySelectorAll(".nav-links a");
+
+  window.addEventListener("scroll", () => {
+    let current = "";
+
+    sections.forEach(section => {
+      const sectionTop = section.offsetTop - 120;
+
+      if (window.scrollY >= sectionTop) {
+        current = section.getAttribute("id");
+      }
+    });
+
+    navLinks.forEach(link => {
+      link.classList.remove("active");
+
+      if (link.getAttribute("href") === "#" + current) {
+        link.classList.add("active");
+      }
+    });
+  });
+</script>
 </body>
 </html>
