@@ -93,14 +93,19 @@ h1 {
 .cta-button {
   display: inline-block;
   margin-top: 20px;
-  padding: 12px 25px;
+  padding: 14px 28px; /* slightly bigger */
   background-color: #2e5fa3;
   color: white;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 6px;
   font-weight: bold;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.15);
 }
 
+.cta-button:hover {
+  background-color: #1f3c6d;
+  transform: translateY(-2px);
+}
 .contact {
   padding: 60px 20px;
   background-color: #f4f4f4;
@@ -128,6 +133,14 @@ footer p {
   color: white;
   margin: 0;
   font-size: 14px;
+}
+
+.services {
+  margin-top: 40px;
+}
+
+.contact {
+  margin-top: 40px;
 }
   </style>
 </head>
