@@ -326,6 +326,32 @@ footer p {
 .quote-section .cta-button:hover {
   background-color: #f4f4f4;
 }
+
+.portfolio-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.portfolio-link:hover {
+  text-decoration: none;
+}
+
+.portfolio-box {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.portfolio-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.portfolio-box img {
+  transition: transform 0.3s ease;
+}
+
+.portfolio-box:hover img {
+  transform: scale(1.05);
+}
   </style>
 </head>
 
@@ -392,13 +418,16 @@ footer p {
   <div class="portfolio-row">
 
     <div class="portfolio-box">
-      <img src="restaurant.jpg" alt="Restaurant Website">
-      <h3>Restaurant Website</h3>
-      <p>Modern website featuring menu, hours, and online ordering.</p>
-      <a href="restaurant.html" class="view-project">View Project →</a>
-    </div>
+<a href="restaurant.html" class="portfolio-link">
+    <img src="restaurant.jpg" alt="Restaurant Website">
+    <h3>Restaurant Website</h3>
+    <p>Modern website featuring menu, hours, and online ordering.</p>
+    <span class="view-project">View Project →</span>
+  </div>
+</a>
 
     <div class="portfolio-box">
+    <a href="construction.html" class="portfolio-link">
       <img src="construction.jpg" alt="Construction Website">
       <h3>Construction Company</h3>
       <p>Professional site showcasing services, projects, and quote requests.</p>
@@ -406,6 +435,7 @@ footer p {
     </div>
 
     <div class="portfolio-box">
+    <a href="smallbusiness.html" class="portfolio-link">
       <img src="cleaning.jpg" alt="Small Business Website">
       <h3>Small Business Site</h3>
       <p>Clean and simple website designed to attract and convert customers.</p>
