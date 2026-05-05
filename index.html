@@ -278,6 +278,22 @@ footer p {
 .view-project:hover {
   background-color: #162c4d;
 }
+
+.portfolio-box {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.portfolio-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.portfolio-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+
   </style>
 </head>
 
@@ -339,6 +355,9 @@ footer p {
 
 <div class="portfolio" id="portfolio">
 <div class="portfolio" id="portfolio">
+  <p style="max-width:600px; margin: 0 auto 30px; color:#555;">
+  Examples of websites we can build for your business.
+</p>
   <h2>Our Work</h2>
 
   <div class="portfolio-row">
@@ -347,22 +366,31 @@ footer p {
       <img src="https://placehold.co/300x180?text=Restaurant+Site" alt="Restaurant Website">
       <h3>Restaurant Website</h3>
       <p>Modern website featuring menu, hours, and online ordering.</p>
-      <a href="restaurant.html" class="view-project">View Project →</a>
-    </div>
+<a href="restaurant.html" class="portfolio-link">
+  <div class="portfolio-box">
+    ...
+  </div>
+</a>
 
     <div class="portfolio-box">
       <img src="https://placehold.co/300x180?text=Construction+Site" alt="Construction Website">
       <h3>Construction Company</h3>
       <p>Professional site showcasing services, projects, and quote requests.</p>
-      <a href="construction.html" class="view-project">View Project →</a>
-    </div>
+<a href="construction.html" class="portfolio-link">
+  <div class="portfolio-box">
+    ...
+  </div>
+</a>
 
     <div class="portfolio-box">
       <img src="https://placehold.co/300x180?text=Small-Business+Site" alt="Small Business Website">
       <h3>Small Business Site</h3>
       <p>Clean and simple website designed to attract and convert customers.</p>
-      <a href="smallbusiness.html" class="view-project">View Project →</a>
-    </div>
+<a href="smallbusiness.html" class="portfolio-link">
+  <div class="portfolio-box">
+    ...
+  </div>
+</a>
 
   </div>
 </div>
