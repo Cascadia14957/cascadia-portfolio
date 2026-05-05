@@ -228,12 +228,15 @@ footer p {
 }
 
 .portfolio-box {
-  background-color: white;
-  padding: 15px;
+  background-color: #f9f9f9;
+  padding: 25px;
   border-radius: 10px;
-  width: 280px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  width: 250px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* THIS is the key */
 }
 
 .portfolio-box img {
@@ -344,8 +347,9 @@ footer p {
     <img src="https://placehold.co/300x180?text=Restaurant+Site" alt="Restaurant Website">
     <h3>Restaurant Website</h3>
     <p>Modern website featuring menu, hours, and online ordering.</p>
-    <p class="view-project">View Project →</p>
-  </a>
+  </div>
+
+  <a href="restaurant.html" class="view-project">View Project →</a>
 </div>
 
 <div class="portfolio-box">
@@ -353,6 +357,7 @@ footer p {
 
   <h3>Construction Company</h3>
   <p>Professional site showcasing services, projects, and quote requests.</p>
+  </div>
 
   <a href="construction.html" class="view-project">View Project →</a>
 </div>
@@ -361,8 +366,10 @@ footer p {
       <img src="https://placehold.co/300x180?text=Small-Business+Site" alt="Small Business Website">
       <h3>Small Business Site</h3>
       <p>Clean and simple website designed to attract and convert customers.</p>
-        <p class="view-project">View Project →</p>
-    </div>
+  </div>
+
+  <a href="smallbusiness.html" class="view-project">View Project →</a>
+</div>
 
   </div>
 </div>
