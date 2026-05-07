@@ -1,13 +1,242 @@
-/* General Styles */
+/* General Page Styling */
 
-/* Navigation */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+  text-align: center;
+}
+
+section {
+  padding: 60px 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
 
 /* Hero Section */
 
-/* Hours Section */
+.hero {
+  background-image:
+    linear-gradient(
+      rgba(139,47,47,0.65) 0%,
+      rgba(139,47,47,0.45) 40%,
+      rgba(139,47,47,0.55) 100%
+    ),
+    url("restaurant-banner.jpg");
+  background-size: 110%;
+  background-position: center;
+  color: white;
+  padding: 120px 20px;
+  transition: background-size 6s ease;
+}
 
-/* Menu Page */
+.hero:hover {
+  background-size: 115%;
+}
+
+.hero h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+  text-shadow: 0 4px 12px rgba(0,0,0,0.5);
+}
+
+.hero p {
+  font-size: 18px;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.4);
+}
+
+
+/* Main Sections */
+
+.section {
+  padding: 60px 20px;
+  background-color: white;
+}
+
 
 /* Buttons */
 
+.button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  background-color: white;
+  color: #8b2f2f;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+}
+
+.button:hover {
+  background-color: #f2f2f2;
+  transform: translateY(-2px);
+}
+
+.cta-button {
+  display: inline-block;
+  margin: 30px auto;
+}
+
+
+/* Menu Preview Cards on Homepage */
+
+.menu-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.menu-item {
+  background-color: #f9f9f9;
+  padding: 25px;
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.menu-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.menu-item h3 {
+  color: #8b2f2f;
+}
+
+.menu-item img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.menu-item:hover img {
+  transform: scale(1.05);
+}
+
+
+/* Hours & Location Section */
+
+.hours-section {
+  padding: 70px 20px;
+  background-color: #f8f5f2;
+  text-align: center;
+}
+
+.hours-section h2 {
+  font-size: 38px;
+  margin-bottom: 40px;
+  color: #5a2d0c;
+}
+
+.hours-box {
+  background-color: white;
+  padding: 40px;
+  width: 420px;
+  max-width: 90%;
+  margin: 40px auto 0 auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+}
+
+.hours-box h3 {
+  margin-bottom: 20px;
+  color: #7b341e;
+}
+
+.hours-box p {
+  margin: 10px 0;
+  color: #444;
+}
+
+
+/* Reservation Section */
+
+.reservation-section {
+  padding: 60px 20px;
+  background-color: #8b2f2f;
+  color: white;
+  text-align: center;
+}
+
+.reservation-section h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.reservation-section p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.reservation-section .button {
+  background-color: white;
+  color: #8b2f2f;
+}
+
+.reservation-section .button:hover {
+  background-color: #f4f4f4;
+}
+
+
+/* Full Menu Page */
+
+.menu-hero {
+  background-color: #5a2d0c;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.menu-hero h1 {
+  font-size: 52px;
+  margin-bottom: 10px;
+}
+
+.menu-section {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 0 20px;
+  background-color: #f8f5f2;
+}
+
+.full-menu-item {
+  padding: 25px 0;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.full-menu-item h2 {
+  color: #5a2d0c;
+  margin-bottom: 10px;
+}
+
+.full-menu-item p {
+  color: #444;
+  line-height: 1.6;
+}
+
+.menu-footer {
+  text-align: center;
+  padding: 40px;
+}
+
+
 /* Footer */
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
