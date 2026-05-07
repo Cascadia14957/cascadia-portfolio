@@ -73,6 +73,98 @@
   font-weight: 500;
   text-shadow: 1px 1px 6px rgba(0,0,0,0.5);
 }
+
+.services {
+  background-color: #f3f4f6;
+  padding: 70px 20px;
+  text-align: center;
+}
+
+.services h2,
+.project-strip h2,
+.contact-section h2 {
+  font-size: 34px;
+  color: #1f2937;
+  margin-bottom: 10px;
+}
+
+.section-intro {
+  max-width: 650px;
+  margin: 0 auto 35px;
+  font-size: 18px;
+  color: #4b5563;
+}
+
+.service-grid {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  background-color: white;
+  border-left: 6px solid #f59e0b;
+  padding: 30px;
+  width: 260px;
+  text-align: left;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+
+.service-card h3 {
+  color: #111827;
+  margin-bottom: 12px;
+  font-size: 22px;
+}
+
+.service-card p {
+  color: #374151;
+  line-height: 1.5;
+}
+
+.project-strip {
+  background-color: #1f2937;
+  color: white;
+  padding: 70px 20px;
+  text-align: center;
+}
+
+.project-strip h2 {
+  color: white;
+}
+
+.project-strip p {
+  max-width: 750px;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.contact-section {
+  background-color: #111827;
+  color: white;
+  text-align: center;
+  padding: 70px 20px;
+}
+
+.contact-section h2 {
+  color: white;
+}
+
+.contact-section p {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.quote-button {
+  display: inline-block;
+  background-color: #f59e0b;
+  color: #111827;
+  padding: 14px 28px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 3px;
+}
   </style>
 </head>
 
@@ -88,34 +180,40 @@
   <div class="section">
     <h2>Our Services</h2>
 
-    <div class="row">
-      <div class="box">
-        <h3>Residential Builds</h3>
-        <p>Custom homes built to your vision.</p>
-      </div>
+<section class="services">
+  <h2>Our Services</h2>
+  <p class="section-intro">Reliable construction services built around quality, communication, and results.</p>
 
-      <div class="box">
-        <h3>Remodeling</h3>
-        <p>Upgrade your space with modern design.</p>
-      </div>
+  <div class="service-grid">
+    <div class="service-card">
+      <h3>Residential Builds</h3>
+      <p>Custom homes and residential projects built with care from the ground up.</p>
+    </div>
 
-      <div class="box">
-        <h3>Commercial Projects</h3>
-        <p>Professional construction for businesses.</p>
-      </div>
+    <div class="service-card">
+      <h3>Remodeling</h3>
+      <p>Interior and exterior upgrades designed to improve your space and add value.</p>
+    </div>
+
+    <div class="service-card">
+      <h3>Commercial Projects</h3>
+      <p>Professional construction solutions for offices, shops, and business properties.</p>
     </div>
   </div>
+</section>
 
-  <div class="section">
-    <h2>Recent Projects</h2>
-    <p>Showcase of completed work (images coming soon).</p>
+<section class="project-strip">
+  <div>
+    <h2>Built on Quality</h2>
+    <p>From planning to final walkthrough, every project is managed with attention to detail, safety, and dependable craftsmanship.</p>
   </div>
+</section>
 
-  <div class="section">
-    <h2>Contact Us</h2>
-    <p>Get your project started today.</p>
-    <a href="#" class="cta-button">Call Now</a>
-  </div>
+<section class="contact-section" id="contact">
+  <h2>Ready to Start Your Project?</h2>
+  <p>Contact us today to discuss your construction needs and request an estimate.</p>
+  <a href="#" class="quote-button">Request a Quote</a>
+</section>
 
   <div style="text-align:center;">
     <a href="index.html" class="cta-button">← Back to Portfolio</a>
