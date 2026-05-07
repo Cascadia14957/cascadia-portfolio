@@ -4,68 +4,116 @@
   <title>Small Business Demo Website</title>
 
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      background-color: #f4f4f4;
-      text-align: center;
-    }
 
-    .hero {
-      background-color: #2f5d50;
-      color: white;
-      padding: 80px 20px;
-    }
-
-    .section {
-      padding: 60px 20px;
-      background-color: white;
-    }
-
-    .row {
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      flex-wrap: wrap;
-      margin-top: 30px;
-    }
-
-    .box {
-      background-color: #f9f9f9;
-      padding: 25px;
-      width: 250px;
-      border-radius: 10px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    }
-
-    .box h3 {
-      color: #2f5d50;
-    }
-
-    .cta-button {
-      display: inline-block;
-      margin-top: 20px;
-      padding: 12px 25px;
-      background-color: #2f5d50;
-      color: white;
-      text-decoration: none;
-      border-radius: 5px;
-      font-weight: bold;
-    }
-
-    .cta-button:hover {
-      background-color: #214238;
-    }
-
-    footer {
-      background-color: #222;
-      color: white;
-      padding: 20px;
-      margin-top: 40px;
-    }
-  </style>
 </head>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f3fbf8;
+  color: #1f2937;
+  text-align: center;
+}
 
+.hero {
+  background:
+    linear-gradient(rgba(255,255,255,0.75), rgba(255,255,255,0.75)),
+    url("cleaning-banner.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 120px 20px;
+  color: #1f4d3a;
+}
+
+.hero h1 {
+  font-size: 52px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.button {
+  display: inline-block;
+  background-color: #2f855a;
+  color: white;
+  padding: 14px 30px;
+  border-radius: 30px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.section {
+  padding: 75px 20px;
+}
+
+.section h2 {
+  font-size: 34px;
+  color: #1f4d3a;
+  margin-bottom: 15px;
+}
+
+.services-row {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+  margin-top: 35px;
+}
+
+.service-card {
+  background-color: white;
+  width: 280px;
+  padding: 35px 25px;
+  border-radius: 25px;
+  box-shadow: 0 8px 25px rgba(47, 133, 90, 0.12);
+  border: 1px solid #d9f2e6;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(47, 133, 90, 0.2);
+}
+
+.service-card h3 {
+  color: #2f855a;
+  font-size: 22px;
+}
+
+.why-section {
+  background-color: white;
+  padding: 80px 20px;
+}
+
+.why-section p {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.contact-section {
+  background-color: #dff7ec;
+  padding: 80px 20px;
+}
+
+.contact-section h2 {
+  color: #1f4d3a;
+  font-size: 36px;
+}
+
+.contact-section p {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+footer {
+  background-color: #1f4d3a;
+  color: white;
+  padding: 25px;
+}
 <body>
 
   <div class="hero">
