@@ -552,3 +552,14 @@ nav a:hover {
   font-size: 14px;
   opacity: 0.85;
 }
+
+.footer .footer-links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 12px;
+  font-weight: bold;
+}
+
+.footer .footer-links a:hover {
+  color: #cfe8ff;
+}
