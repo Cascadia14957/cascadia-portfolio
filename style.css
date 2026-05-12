@@ -280,3 +280,111 @@ footer {
   color: white;
   padding: 20px;
 }
+/* Pricing Page */
+.pricing-hero {
+  padding: 80px 20px;
+  text-align: center;
+  background: linear-gradient(135deg, #0f766e, #115e59);
+  color: white;
+}
+
+.pricing-hero h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.pricing-hero p {
+  font-size: 20px;
+}
+
+.pricing-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  padding: 60px 8%;
+  background-color: #f4f7f6;
+}
+
+.pricing-card {
+  background: white;
+  padding: 35px;
+  border-radius: 14px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+  text-align: center;
+}
+
+.pricing-card h2 {
+  color: #115e59;
+  margin-bottom: 10px;
+}
+
+.pricing-card h3 {
+  font-size: 28px;
+  color: #0f766e;
+  margin-bottom: 15px;
+}
+
+.pricing-card ul {
+  text-align: left;
+  margin: 25px 0;
+  line-height: 1.8;
+}
+
+.featured {
+  border: 3px solid #0f766e;
+  transform: scale(1.03);
+}
+
+.pricing-button {
+  display: inline-block;
+  background-color: #0f766e;
+  color: white;
+  padding: 12px 22px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.pricing-button:hover {
+  background-color: #115e59;
+}
+
+.maintenance-section {
+  padding: 60px 8%;
+  text-align: center;
+  background-color: white;
+}
+
+.maintenance-section h2 {
+  font-size: 36px;
+  color: #115e59;
+  margin-bottom: 35px;
+}
+
+.maintenance-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.maintenance-grid div {
+  background-color: #f4f7f6;
+  padding: 25px;
+  border-radius: 12px;
+}
+
+@media screen and (max-width: 900px) {
+  .pricing-container,
+  .maintenance-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .featured {
+    transform: none;
+  }
+
+  .pricing-hero h1 {
+    font-size: 36px;
+  }
+}
+
