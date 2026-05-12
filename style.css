@@ -422,3 +422,34 @@ nav a:hover {
   transform: translateY(-8px);
   box-shadow: 0 12px 24px rgba(0,0,0,0.18);
 }
+
+/* Contact Form */
+.contact-form {
+  max-width: 650px;
+  margin: 40px auto 0;
+  display: grid;
+  gap: 18px;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+  width: 100%;
+  padding: 14px;
+  font-size: 16px;
+  border: 1px solid #d0d7de;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+}
+
+.contact-form textarea {
+  min-height: 160px;
+  resize: vertical;
+}
+
+.contact-form button {
+  border: none;
+  cursor: pointer;
+}
+
+
