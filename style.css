@@ -282,19 +282,21 @@ footer {
 }
 /* Pricing Page */
 .pricing-hero {
-  padding: 80px 20px;
+  padding: 100px 20px;
   text-align: center;
-  background: linear-gradient(135deg, #0f766e, #115e59);
+  background: linear-gradient(135deg, #00437c, #005ea8);
   color: white;
 }
 
 .pricing-hero h1 {
-  font-size: 48px;
-  margin-bottom: 10px;
+  font-size: 58px;
+  margin-bottom: 15px;
+  font-weight: bold;
 }
 
 .pricing-hero p {
-  font-size: 20px;
+  font-size: 22px;
+  opacity: 0.95;
 }
 
 .pricing-container {
@@ -387,4 +389,27 @@ footer {
     font-size: 36px;
   }
 }
+nav {
+  background-color: #ffffff;
+  padding: 18px 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
 
+nav a {
+  text-decoration: none;
+  color: #00437c;
+  font-size: 17px;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+nav a:hover {
+  color: #0f766e;
+}
