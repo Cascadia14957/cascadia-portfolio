@@ -619,10 +619,28 @@ html {
   <h2>Contact Us</h2>
   <p>Ready to get started? Send us a message today.</p>
 
-<a href="https://mail.google.com/mail/?view=cm&fs=1&to=cascadiawebdev@gmail.com" 
-   class="cta-button" target="_blank">
-   Email Us
-</a>
+  <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+
+    <input type="text" name="name" placeholder="Your Name" required>
+
+    <input type="email" name="email" placeholder="Your Email" required>
+
+    <input type="text" name="business" placeholder="Business Name">
+
+    <select name="service" required>
+      <option value="">Select a Service</option>
+      <option value="Starter Website">Starter Website</option>
+      <option value="Business Website">Business Website</option>
+      <option value="Premium Website">Premium Website</option>
+      <option value="Maintenance Plan">Maintenance Plan</option>
+    </select>
+
+    <textarea name="message" placeholder="Tell us about your project..." required></textarea>
+
+    <button type="submit" class="cta-button">Send Message</button>
+
+  </form>
+</div>
 </div>
 
 <footer>
