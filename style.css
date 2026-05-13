@@ -379,7 +379,7 @@ nav a:hover {
 .maintenance-card {
   background: white;
   border-radius: 18px;
-  padding: 28px;
+  padding: 22px;
   display: flex;
   align-items: center;
   gap: 22px;
@@ -394,10 +394,11 @@ nav a:hover {
 }
 
 .maintenance-icon {
-  width: 80px;
-  height: 80px;
-  min-width: 80px;
+  width: 90px;
+  height: 90px;
+  min-width: 90px;
   border-radius: 50%;
+  line-height: 1;
   background-color: #eef4ff;
   display: flex;
   align-items: center;
