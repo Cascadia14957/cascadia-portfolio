@@ -379,13 +379,13 @@ nav a:hover {
 .maintenance-card {
   background: white;
   border-radius: 18px;
-  padding: 22px;
-  display: flex;
+  padding: 26px;
+  display: grid;
+  grid-template-columns: 90px 1fr;
   align-items: center;
   gap: 22px;
   box-shadow: 0 6px 18px rgba(0,0,0,0.08);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  min-height: 125px;
 }
 
 .maintenance-card:hover {
