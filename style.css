@@ -350,48 +350,98 @@ nav a:hover {
 }
 
 /* Maintenance Section */
+/* Hosting & Maintenance */
 
 .maintenance-section {
-  padding: 70px 8%;
+  padding: 50px 8% 70px;
   text-align: center;
-  background-color: white;
+  background-color: #f8fafc;
 }
 
 .maintenance-section h2 {
-  font-size: 38px;
+  font-size: 42px;
   color: #00437c;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
-.maintenance-section > p {
-  max-width: 750px;
-  margin: 0 auto 40px;
+.maintenance-intro {
   color: #555;
-  line-height: 1.6;
+  margin-bottom: 40px;
+  font-size: 18px;
 }
 
 .maintenance-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 25px;
+  gap: 24px;
 }
 
-.maintenance-grid div {
-  background-color: #f4f7f6;
-  padding: 30px;
-  border-radius: 16px;
-  box-shadow: 0 5px 14px rgba(0,0,0,0.08);
+.maintenance-card {
+  background: white;
+  border-radius: 18px;
+  padding: 28px;
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease,
+              box-shadow 0.3s ease;
 }
 
-.maintenance-grid h3 {
+.maintenance-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.12);
+}
+
+.maintenance-icon {
+  width: 80px;
+  height: 80px;
+  min-width: 80px;
+  border-radius: 50%;
+  background-color: #eef4ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+}
+
+.maintenance-content {
+  text-align: left;
+}
+
+.maintenance-content h3 {
+  color: #00437c;
+  margin-bottom: 8px;
+  font-size: 22px;
+}
+
+.maintenance-price {
+  font-weight: bold;
   color: #00437c;
   margin-bottom: 10px;
+  font-size: 18px;
 }
 
-.maintenance-grid p {
+.maintenance-content p {
   color: #555;
   line-height: 1.6;
 }
+
+@media screen and (max-width: 900px) {
+  .maintenance-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .maintenance-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .maintenance-content {
+    text-align: center;
+  }
+}
+
 /* Contact Form */
 
 .contact-form {
