@@ -698,13 +698,6 @@ nav a:hover {
   gap: 25px;
 }
 
-.maintenance-grid div {
-  background-color: #f4f7f6;
-  padding: 30px;
-  border-radius: 16px;
-  box-shadow: 0 5px 14px rgba(0,0,0,0.08);
-}
-
 .maintenance-grid h3 {
   color: #00437c;
   margin-bottom: 10px;
