@@ -623,7 +623,7 @@ nav a:hover {
 /* Maintenance Section */
 
 .maintenance-section {
-  padding: 70px 8%;
+  padding: 50px 8% 70px;
   text-align: center;
   background-color: white;
 }
@@ -677,7 +677,7 @@ nav a:hover {
 /* Process Section */
 
 .process-section {
-  padding: 80px 8%;
+  padding: 60px 8% 40px;
   background-color: white;
   text-align: center;
 }
