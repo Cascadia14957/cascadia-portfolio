@@ -569,7 +569,7 @@ nav a:hover {
 
 .pricing-card h3 {
   font-size: 34px;
-  color: #0f766e;
+  color: #00437c;
   margin: 15px 0 20px;
 }
 
@@ -586,7 +586,7 @@ nav a:hover {
 }
 
 .featured {
-  border: 3px solid #0f766e;
+  border: 3px solid #00437c;
   transform: scale(1.04);
   position: relative;
 }
@@ -597,7 +597,7 @@ nav a:hover {
   top: -18px;
   left: 50%;
   transform: translateX(-50%);
-  background-color: #0f766e;
+  background-color: #00437c;
   color: white;
   padding: 8px 18px;
   border-radius: 999px;
