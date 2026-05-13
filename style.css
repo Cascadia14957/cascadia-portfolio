@@ -580,12 +580,10 @@ nav a:hover {
   color: white;
 }
 
-.footer-links {
-  display: flex;
-  justify-content: center;
-  gap: 18px;
-  flex-wrap: wrap;
-  margin: 14px 0;
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .footer-links a {
