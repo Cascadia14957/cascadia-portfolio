@@ -439,3 +439,7 @@ nav a:hover {
     gap: 18px;
   }
 }
+a {
+  color: white !important;
+}
+
