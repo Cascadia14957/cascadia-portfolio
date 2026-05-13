@@ -591,3 +591,16 @@ nav a:hover {
   font-size: 14px;
   margin-top: 16px;
 }
+
+.site-footer .footer-links a {
+  color: #ffffff !important;
+  text-decoration: none !important;
+  margin: 0 12px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.site-footer .footer-links a:hover {
+  color: #cfe8ff !important;
+  text-decoration: underline;
+}
