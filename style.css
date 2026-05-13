@@ -674,3 +674,66 @@ nav a:hover {
   padding: 10px;
   box-sizing: border-box;
 }
+/* Process Section */
+
+.process-section {
+  padding: 80px 8%;
+  background-color: white;
+  text-align: center;
+}
+
+.process-section h2 {
+  font-size: 38px;
+  color: #00437c;
+  margin-bottom: 10px;
+}
+
+.process-intro {
+  color: #555;
+  max-width: 700px;
+  margin: 0 auto 45px;
+  line-height: 1.6;
+}
+
+.process-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+.process-step {
+  background-color: #f4f7f6;
+  padding: 32px 24px;
+  border-radius: 16px;
+  box-shadow: 0 5px 14px rgba(0,0,0,0.08);
+}
+
+.process-step span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 46px;
+  height: 46px;
+  background-color: #00437c;
+  color: white;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 18px;
+}
+
+.process-step h3 {
+  color: #00437c;
+  margin-bottom: 10px;
+}
+
+.process-step p {
+  color: #555;
+  line-height: 1.6;
+}
+
+@media screen and (max-width: 900px) {
+  .process-grid {
+    grid-template-columns: 1fr;
+  }
+}
