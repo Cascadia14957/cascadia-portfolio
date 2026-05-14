@@ -829,10 +829,10 @@ nav a:hover {
 }
 
 .nav-links a:hover {
-  color: #f59e0b;
+  color: #0a7f95;
 }
 .nav-links a.active {
-  color: #f59e0b;
+  color: #0a7f95;
 }
 .banner {
   width: 100%;
@@ -1073,7 +1073,7 @@ nav a:hover {
 }
 
 .footer-links a:hover {
-  color: #f59e0b;
+  color: #0a7f95;
   transform: translateX(4px);
 }
 
