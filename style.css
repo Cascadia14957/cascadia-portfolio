@@ -1017,3 +1017,10 @@ nav a:hover {
   cursor: pointer;
   align-self: center;
 }
+.contact-form .cta-button:hover {
+  background-color: #005ea8;
+  transform: translateY(-2px);
+}
+.contact-form .cta-button {
+  transition: 0.3s;
+}
