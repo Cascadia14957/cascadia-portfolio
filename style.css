@@ -834,11 +834,6 @@ nav a:hover {
 .nav-links a.active {
   color: #0a7f95;
 }
-.banner {
-  width: 100%;
-  display: block;
-  object-fit: cover;
-}
 .hero-button {
   display: inline-block !important;
   margin-top: 25px !important;
@@ -1107,11 +1102,6 @@ nav a:hover {
 
   .nav-links a {
     font-size: 14px;
-  }
-
-  .banner {
-    height: 220px;
-    object-fit: cover;
   }
 
   .container {
