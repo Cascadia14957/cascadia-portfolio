@@ -840,18 +840,18 @@ nav a:hover {
   object-fit: cover;
 }
 .hero-button {
-  display: inline-block;
-  margin-top: 25px;
-  background-color: #00437c;
-  color: white;
-  padding: 14px 28px;
-  border-radius: 10px;
-  text-decoration: none;
-  font-weight: bold;
-  transition: 0.3s;
+  display: inline-block !important;
+  margin-top: 25px !important;
+  background-color: #00437c !important;
+  color: white !important;
+  padding: 14px 28px !important;
+  border-radius: 10px !important;
+  text-decoration: none !important;
+  font-weight: bold !important;
+  transition: 0.3s !important;
 }
 
 .hero-button:hover {
-  background-color: #005ea8;
+  background-color: #005ea8 !important;
   transform: translateY(-2px);
 }
