@@ -621,33 +621,37 @@ html {
     </a>
   </section>
 
-  <!-- Contact -->
-  <section class="contact" id="contact">
-    <h2>Contact Us</h2>
-    <p>Ready to get started? Send us a message today.</p>
+<!-- Contact -->
+<section class="contact" id="contact">
+  <h2>Contact Cascadia Web Development</h2>
+  <p class="contact-intro">
+    Ready to start your website project? Send a message and I’ll get back to you as soon as possible.
+  </p>
 
-    <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+  <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
 
+    <div class="form-row">
       <input type="text" name="name" placeholder="Your Name" required>
-
       <input type="email" name="email" placeholder="Your Email" required>
+    </div>
 
-      <input type="text" name="business" placeholder="Business Name">
+    <input type="text" name="business" placeholder="Business Name">
 
-      <select name="service" required>
-        <option value="">Select a Service</option>
-        <option value="Starter Website">Starter Website</option>
-        <option value="Business Website">Business Website</option>
-        <option value="Premium Website">Premium Website</option>
-        <option value="Maintenance Plan">Maintenance Plan</option>
-      </select>
+    <select name="service" required>
+      <option value="">Select a Service</option>
+      <option value="Starter Website">Starter Website</option>
+      <option value="Business Website">Business Website</option>
+      <option value="Premium Website">Premium Website</option>
+      <option value="Maintenance Plan">Maintenance Plan</option>
+      <option value="Hosting Services">Hosting Services</option>
+    </select>
 
-      <textarea name="message" placeholder="Tell us about your project..." required></textarea>
+    <textarea name="message" placeholder="Tell me about your project..." required></textarea>
 
-      <button type="submit" class="cta-button">Send Message</button>
+    <button type="submit" class="cta-button">Send Message</button>
 
-    </form>
-  </section>
+  </form>
+</section>
 
   <!-- Footer -->
   <footer class="site-footer">
