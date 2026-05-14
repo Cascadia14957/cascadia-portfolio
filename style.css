@@ -809,10 +809,9 @@ nav a:hover {
 }
 
 .nav-logo span {
-  font-size: 22px;
+  font-size: 30px;
   font-weight: bold;
   color: #00437c;
-  white-space: nowrap;
 }
 
 .nav-links {
@@ -822,12 +821,16 @@ nav a:hover {
 }
 
 .nav-links a {
+  transition: 0.3s;
   text-decoration: none;
   color: #111827;
-  font-size: 16px;
+  font-size: 17px;
   font-weight: bold;
 }
 
 .nav-links a:hover {
+  color: #f59e0b;
+}
+.nav-links a.active {
   color: #f59e0b;
 }
