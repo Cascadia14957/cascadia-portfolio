@@ -1149,3 +1149,8 @@ nav a:hover {
     padding: 25px;
   }
 }
+.banner {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
