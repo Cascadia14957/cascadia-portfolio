@@ -910,6 +910,9 @@ nav a:hover {
 
 .portfolio-content {
   padding: 25px;
+  display: flex;
+  flex-direction: column;
+  height: 230px;
 }
 
 .portfolio-content h3 {
@@ -928,4 +931,7 @@ nav a:hover {
   margin-top: 15px;
   color: #00437c;
   font-weight: bold;
+}
+.portfolio-content span {
+  margin-top: auto;
 }
