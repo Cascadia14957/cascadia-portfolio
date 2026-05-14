@@ -1083,3 +1083,69 @@ nav a:hover {
   padding-top: 20px;
   text-align: center;
 }
+@media screen and (max-width: 768px) {
+  .navbar {
+    height: auto;
+    flex-direction: column;
+    padding: 15px 20px;
+    gap: 15px;
+  }
+
+  .nav-logo {
+    justify-content: center;
+  }
+
+  .nav-logo span {
+    font-size: 22px;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+  }
+
+  .nav-links a {
+    font-size: 14px;
+  }
+
+  .banner {
+    height: 220px;
+    object-fit: cover;
+  }
+
+  .container {
+    padding: 35px 20px 55px;
+  }
+
+  .container h1 {
+    font-size: 28px;
+  }
+
+  .services-row,
+  .portfolio-row,
+  .about-container,
+  .form-row,
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service-box,
+  .portfolio-box {
+    width: 100%;
+    max-width: 360px;
+  }
+
+  .about-text {
+    text-align: center;
+  }
+
+  .about-highlights {
+    justify-content: center;
+  }
+
+  .contact-form {
+    padding: 25px;
+  }
+}
