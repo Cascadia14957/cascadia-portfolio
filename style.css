@@ -245,7 +245,7 @@ nav a:hover {
 .pricing-hero {
   padding: 110px 20px;
   text-align: center;
-  background: linear-gradient(135deg, #00437c, #0068b7);
+  background: linear-gradient(135deg, #005f6f, #0068b7);
   color: white;
 }
 
@@ -291,14 +291,14 @@ nav a:hover {
 }
 
 .pricing-card h2 {
-  color: #00437c;
+  color: #005f6f;
   font-size: 28px;
   margin-bottom: 10px;
 }
 
 .pricing-card h3 {
   font-size: 34px;
-  color: #00437c;
+  color: #005f6f;
   margin: 15px 0 20px;
 }
 
@@ -315,7 +315,7 @@ nav a:hover {
 }
 
 .featured {
-  border: 3px solid #00437c;
+  border: 3px solid #005f6f;
   transform: scale(1.04);
   position: relative;
 }
@@ -326,7 +326,7 @@ nav a:hover {
   top: -18px;
   left: 50%;
   transform: translateX(-50%);
-  background-color: #00437c;
+  background-color: #005f6f;
   color: white;
   padding: 8px 18px;
   border-radius: 999px;
@@ -336,7 +336,7 @@ nav a:hover {
 
 .pricing-button {
   display: inline-block;
-  background-color: #00437c;
+  background-color: #005f6f;
   color: white;
   padding: 14px 24px;
   border-radius: 8px;
@@ -360,7 +360,7 @@ nav a:hover {
 
 .maintenance-section h2 {
   font-size: 42px;
-  color: #00437c;
+  color: #005f6f;
   margin-bottom: 10px;
 }
 
@@ -411,14 +411,14 @@ nav a:hover {
 }
 
 .maintenance-content h3 {
-  color: #00437c;
+  color: #005f6f;
   margin-bottom: 8px;
   font-size: 22px;
 }
 
 .maintenance-price {
   font-weight: bold;
-  color: #00437c;
+  color: #005f6f;
   margin-bottom: 10px;
   font-size: 18px;
 }
@@ -476,7 +476,7 @@ nav a:hover {
   align-self: center;
   border: none;
   cursor: pointer;
-  background-color: #00437c;
+  background-color: #005f6f;
   color: white;
   padding: 14px 24px;
   border-radius: 8px;
@@ -495,7 +495,7 @@ nav a:hover {
 /* Footer */
 
 .site-footer {
-  background-color: #00437c;
+  background-color: #005f6f;
   color: white;
   text-align: center;
   padding: 40px 20px 25px;
@@ -574,7 +574,7 @@ nav a:hover {
 .pricing-hero {
   padding: 110px 20px;
   text-align: center;
-  background: linear-gradient(135deg, #00437c, #0068b7);
+  background: linear-gradient(135deg, ##005f6f, #0068b7);
   color: white;
 }
 
@@ -613,14 +613,14 @@ nav a:hover {
 }
 
 .pricing-card h2 {
-  color: #00437c;
+  color: #005f6f;
   font-size: 28px;
   margin-bottom: 10px;
 }
 
 .pricing-card h3 {
   font-size: 34px;
-  color: #00437c;
+  color: #005f6f;
   margin: 15px 0 20px;
 }
 
@@ -637,7 +637,7 @@ nav a:hover {
 }
 
 .featured {
-  border: 3px solid #00437c;
+  border: 3px solid #005f6f;
   transform: scale(1.04);
   position: relative;
 }
@@ -648,7 +648,7 @@ nav a:hover {
   top: -18px;
   left: 50%;
   transform: translateX(-50%);
-  background-color: #00437c;
+  background-color: #005f6f;
   color: white;
   padding: 8px 18px;
   border-radius: 999px;
@@ -658,7 +658,7 @@ nav a:hover {
 
 .pricing-button {
   display: inline-block;
-  background-color: #00437c;
+  background-color: #005f6f;
   color: white;
   padding: 14px 24px;
   border-radius: 8px;
@@ -681,7 +681,7 @@ nav a:hover {
 
 .maintenance-section h2 {
   font-size: 38px;
-  color: #00437c;
+  color: #005f6f;
   margin-bottom: 15px;
 }
 
@@ -699,7 +699,7 @@ nav a:hover {
 }
 
 .maintenance-grid h3 {
-  color: #00437c;
+  color: #005f6f;
   margin-bottom: 10px;
 }
 
@@ -728,7 +728,7 @@ nav a:hover {
 
 .process-section h2 {
   font-size: 38px;
-  color: #00437c;
+  color: #005f6f;
   margin-bottom: 10px;
 }
 
@@ -758,7 +758,7 @@ nav a:hover {
   justify-content: center;
   width: 46px;
   height: 46px;
-  background-color: #00437c;
+  background-color: #005f6f;
   color: white;
   border-radius: 50%;
   font-weight: bold;
@@ -767,7 +767,7 @@ nav a:hover {
 }
 
 .process-step h3 {
-  color: #00437c;
+  color: #005f6f;
   margin-bottom: 10px;
 }
 
@@ -811,7 +811,7 @@ nav a:hover {
 .nav-logo span {
   font-size: 30px;
   font-weight: bold;
-  color: #00437c;
+  color: #005f6f;
 }
 
 .nav-links {
@@ -842,7 +842,7 @@ nav a:hover {
 .hero-button {
   display: inline-block !important;
   margin-top: 25px !important;
-  background-color: #00437c !important;
+  background-color: #005f6f !important;
   color: white !important;
   padding: 14px 28px !important;
   border-radius: 10px !important;
@@ -863,7 +863,7 @@ nav a:hover {
 
 .portfolio h2 {
   font-size: 32px;
-  color: #00437c;
+  color: #005f6f;
   margin-bottom: 10px;
 }
 
@@ -916,7 +916,7 @@ nav a:hover {
 }
 
 .portfolio-content h3 {
-  color: #00437c;
+  color: #005f6f;
   margin-bottom: 12px;
 }
 
@@ -929,7 +929,7 @@ nav a:hover {
 .portfolio-content span {
   display: inline-block;
   margin-top: 15px;
-  color: #00437c;
+  color: #005f6f;
   font-weight: bold;
 }
 .portfolio-content span {
@@ -1008,7 +1008,7 @@ nav a:hover {
 .contact-form select:focus,
 .contact-form textarea:focus {
   outline: none;
-  border-color: #00437c;
+  border-color: #005f6f;
   box-shadow: 0 0 0 3px rgba(0,67,124,0.12);
 }
 
