@@ -1150,7 +1150,17 @@ nav a:hover {
 }
 
 .service-icon {
+    width: 90px;
+    height: 90px;
+    background-color: #eef6fb;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0 auto 20px auto;
+
     font-size: 42px;
-    color: #00437c;
-    margin-bottom: 18px;
+    color: #0077aa;
 }
