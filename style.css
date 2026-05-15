@@ -1258,3 +1258,7 @@ nav a:hover {
 .property-button {
     margin-top: 8px;
 }
+.property-title {
+    font-size: 16px;
+    line-height: 1.2;
+}
