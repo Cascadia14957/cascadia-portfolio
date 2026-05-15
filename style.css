@@ -1178,3 +1178,12 @@ nav a:hover {
 .project-button:hover {
   background-color: #0077aa;
 }
+.portfolio-box {
+    display: flex;
+    flex-direction: column;
+}
+.portfolio-content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
