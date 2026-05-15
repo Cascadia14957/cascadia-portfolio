@@ -1182,8 +1182,20 @@ nav a:hover {
     display: flex;
     flex-direction: column;
 }
+
 .portfolio-content {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
+}
+
+.project-button {
+    display: inline-block;
+    margin-top: auto;
+    padding: 12px 22px;
+    background-color: #00437c;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
 }
