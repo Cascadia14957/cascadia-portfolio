@@ -1145,3 +1145,12 @@ nav a:hover {
   object-fit: cover;
   display: block;
 }
+.service-card {
+    text-align: center;
+}
+
+.service-icon {
+    font-size: 42px;
+    color: #00437c;
+    margin-bottom: 18px;
+}
