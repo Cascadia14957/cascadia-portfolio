@@ -1249,3 +1249,7 @@ nav a:hover {
     margin-top: auto;
     margin-bottom: 28px;
 }
+.property-text {
+    font-size: 15px;
+    line-height: 1.5;
+}
