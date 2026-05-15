@@ -1207,3 +1207,24 @@ nav a:hover {
     font-size: 15px;
     line-height: 1.6;
 }
+.portfolio-box {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.portfolio-link {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.portfolio-content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.project-button {
+  margin-top: auto;
+}
