@@ -1199,3 +1199,7 @@ nav a:hover {
     border-radius: 6px;
     font-weight: bold;
 }
+.portfolio-content h3 {
+    font-size: 18px;
+    line-height: 1.3;
+}
