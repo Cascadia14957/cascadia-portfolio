@@ -1142,7 +1142,8 @@ nav a:hover {
 .banner {
   width: 100%;
   height: auto;
-  max-height: 550px;
+  max-height: 425px;
+  object-fit: cover;
   display: block;
 }
 .service-card {
