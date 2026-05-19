@@ -1143,7 +1143,6 @@ nav a:hover {
   width: 100%;
   height: 550px;
   object-fit: cover;
-  object-position: center center;
   display: block;
 }
 .service-card {
