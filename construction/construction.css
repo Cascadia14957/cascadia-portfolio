@@ -45,7 +45,7 @@
   height: 400px;
   background:
     linear-gradient(rgba(20, 20, 20, 0.35), rgba(20, 20, 20, 0.35)),
-    url("construction.jpg");
+    url("../construction.jpg");
 
   background-size: cover;
   background-position: center;
