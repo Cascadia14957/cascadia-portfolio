@@ -1292,3 +1292,10 @@ footer p {
   padding: 25px 0;
   background-color: #f4f4f4;
 }
+footer {
+  background-color: red;
+  color: white;
+  text-align: center;
+  padding: 40px;
+  font-size: 24px;
+}
