@@ -230,5 +230,26 @@
   background-color: #f59e0b;
   margin: 12px auto 0;
 }
-    
+  footer {
+  background-color: #111827;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+footer {
+  background-color: #111827;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 0;
+}
+
+footer p {
+  margin: 0;
+}
+.back-home {
+  text-align: center;
+  padding: 25px 0;
+  background-color: #f4f4f4;
+}  
   </style>
