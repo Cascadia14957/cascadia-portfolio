@@ -254,3 +254,23 @@ footer {
   font-size: 18px;
   margin: 0;
 }
+.back-home {
+  text-align: center;
+  padding: 30px 0;
+  background-color: #f4f4f4;
+}
+
+.back-btn {
+  display: inline-block;
+  background-color: #1e3a6d;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.back-btn:hover {
+  background-color: #2c4d87;
+}
