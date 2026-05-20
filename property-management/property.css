@@ -228,3 +228,29 @@ footer {
     font-size: 18px;
   }
 }
+.property-hero {
+  height: 300px;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.45),
+      rgba(0, 0, 0, 0.45)
+    ),
+    url("diane-pocchiottino-OgGyLlk1THU-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.property-hero h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.property-hero p {
+  font-size: 18px;
+  margin: 0;
+}
