@@ -1270,3 +1270,9 @@ nav a:hover {
     font-size: 14px !important;
     line-height: 1.45;
 }
+footer {
+  background-color: #111827;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
